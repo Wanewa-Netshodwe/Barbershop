@@ -1,0 +1,703 @@
+@media screen and (max-width: 550px) {
+    body{
+        overflow-x: hidden;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .Desktop {
+        display: none;
+    }
+   
+
+    .Tablet {
+        display: none;
+    }
+.logo{
+    position: absolute;
+    top: 50;
+    left :30;
+    width: 150;
+    height: 40;
+}
+.logo img{
+    filter:brightness(3)
+}
+
+    img {
+        filter: grayscale(100%);
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .header{
+        position: relative;
+        width: 100vw;
+        height: 65vh;
+    }
+    .btn-menu{
+        position: absolute;
+       top: 50;
+       right: 50;
+    }
+    .btn-menu button{
+        width: 70;
+        height: 40;
+        font-family: "Poppins";
+        background-color: transparent;
+        border-color: rgb(237, 229, 229);
+        color: rgb(240, 240, 240);
+        border-radius: 10px;
+    }
+.subMenu{
+    position: absolute;
+    top: 96;
+    width: 95vw;
+    border-radius: 10px;
+    background-color: rgba(68, 68, 68, 0.3);
+    padding: 20;
+}
+li a:hover{
+color: rgba(239, 239, 239, 0.7);
+
+
+}
+.hide{
+    display: none;
+}
+li a{
+    width: 100vw;
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-family:"Poppins";
+}
+li{
+    padding: 5;
+    list-style: none;
+}
+.header-message p {
+    color: rgb(223, 227, 232);
+}
+.body{
+    margin-top: 15px;
+    padding: 10;
+    position: relative;
+}
+.header-message{
+    text-align: center;
+position: absolute;
+top: calc(100vh/2.8);
+left: 17%;
+font-family: "Poppins";
+font-size: 25px;
+}
+.operating-hours{
+    width: 98vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.image1{
+    width: 180;
+    height: 400;
+}
+.image2{
+    width: 220;
+    height: 430;
+}
+.image1 img {
+    width: 100%;
+    padding: 10px; /* Note: you need to specify the unit for padding, such as px */
+    filter: blur(1px) grayscale(100%);
+}
+.image2 img {
+    width: 100%;
+    padding: 10px; /* Note: you need to specify the unit for padding, such as px */
+
+}
+.hourstxt{
+    text-align: center;
+    padding: 10;
+    position: absolute;
+    top: 20%;
+    left:26%;
+    width: 200;
+    height: 120;
+    background-color: rgba(233, 235, 237,0.8);
+    border-radius: 10px;
+}
+i{
+    color: rgb(67, 67, 67);
+    font-size: 25px;
+    padding: 5;
+}
+.hourstxt p{
+    color: rgb(67, 67, 67);
+    font-family: "Poppins";
+    padding: 2;
+}
+.aboutUS{
+font-family: "Poppins";
+}
+#about{
+    color: rgb(136, 119, 9);
+    margin-bottom: 10;
+}
+h4{
+    margin-bottom: 20;
+    font-size: 25px;
+}
+.aboutUS p{
+    font-size: 20px;
+margin-bottom: 10;
+}
+.aboutUS button{
+    width: 120;
+    height: 50;
+    font-family:"Poppins";
+    font-size: 17px;
+    color: rgb(249, 244, 244);
+    background-color: rgb(80, 80, 80);
+    border: none;
+}
+.appointment-formMobile{
+    z-index: 1;
+    position: absolute;
+    top:-40%;
+    right: 5%;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    border: 2px solid rgb(97, 97, 97);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(97, 97, 97);
+    transform: translateX(200%);
+    opacity: 0;
+    transition: all 1s ;
+}
+
+.af-h1{
+    font-family: "Poppins";
+    color: rgb(238, 238, 238);
+    padding: 10px;
+}
+.sub{
+    font-family: "Poppins";
+}
+
+.hide{
+    display: none;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+}
+
+
+@media screen and (min-width:550px) and (max-width:990px) {
+    body{
+        overflow: hidden;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .Mobile {
+        display: none;
+    }
+
+    .Desktop {
+        display: none;
+    }
+
+    img {
+        filter: grayscale(100%);
+    }
+    
+.logo{
+    position: absolute;
+    top: 50;
+    left :30;
+    width: 150;
+    height: 40;
+}
+.logo img{
+    filter:brightness(3)
+}
+
+    img {
+        filter: grayscale(100%);
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .header{
+        position: relative;
+        width: 100vw;
+        height: 65vh;
+    }
+    .btn-menu{
+        position: absolute;
+       top: 50;
+       right: 50;
+    }
+    .btn-menu button{
+        width: 70;
+        height: 40;
+        font-family: "Poppins";
+        background-color: transparent;
+        border-color: rgb(237, 229, 229);
+        color: rgb(240, 240, 240);
+        border-radius: 10px;
+    }
+.subMenu{
+    position: absolute;
+    top: 96;
+    width: 95vw;
+    border-radius: 10px;
+    background-color: rgba(68, 68, 68, 0.3);
+    padding: 20;
+}
+li a:hover{
+color: rgba(239, 239, 239, 0.7);
+
+
+}
+.hide{
+    display: none;
+}
+li a{
+    width: 100vw;
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-family:"Poppins";
+}
+li{
+    padding: 5;
+    list-style: none;
+}
+.header-message p {
+    color: rgb(223, 227, 232);
+}
+.header-message{
+    text-align: center;
+position: absolute;
+top: calc(100vh/2.8);
+left: 37%;
+font-family: "Poppins";
+font-size: 25px;
+}
+
+.appointment-formTablet{
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 2px solid rgb(97, 97, 97);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(97, 97, 97);
+    transform: translateX(200%);
+    opacity: 0;
+    transition: all 1s ;
+}
+
+.af-h1{
+    font-family: "Poppins";
+    color: rgb(238, 238, 238);
+    padding: 10px;
+}
+.sub{
+    font-family: "Poppins";
+}
+
+.hide{
+    display: none;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+
+}
+
+@media screen and (min-width:991px) {
+    body{
+        overflow-x: hidden;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.Desktop{
+    overflow-x: hidden;
+}
+    .Mobile {
+        display: none;
+    }
+
+    .Tablet {
+        display: none;
+    }
+
+    img {
+        filter: grayscale(100%);
+    }
+    .logo{
+        position: absolute;
+        top: 20;
+        left :30;
+        width: 150;
+        height: 40;
+    }
+    .logo img{
+        filter:brightness(3)
+    }
+    
+        img {
+            filter: grayscale(100%);
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        .header{
+            position: relative;
+            width: 100vw;
+            height: 65vh;
+        }
+        .btn-menu{
+            position: absolute;
+         
+
+           top: 50;
+           right: 50;
+        }
+        .btn-menu button{
+            width: 70;
+            height: 40;
+            font-family: "Poppins";
+            background-color: transparent;
+            border-color: rgb(237, 229, 229);
+            color: rgb(240, 240, 240);
+            border-radius: 10px;
+        }
+    .subMenu{
+        position: absolute;
+        top: 10;
+        left: 300;
+        width: 70%;
+        border-radius: 10px;
+        background-color: rgba(68, 68, 68, 0.2);
+        padding: 20;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    li a:hover{
+    color: rgba(239, 239, 239, 0.7);
+    
+    
+    }
+    .hide{
+        display: none;
+    }
+    li a{
+        width: 100vw;
+        color: rgb(238, 238, 238);
+        text-decoration: none;
+        font-family:"Poppins";
+    }
+    li{
+        padding: 5;
+        list-style: none;
+    }
+    .header-message p {
+        color: rgb(223, 227, 232);
+    }
+    .header-message{
+        text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-family: "Poppins";
+    font-size: 35px;
+    }
+
+    
+.operating-hours{
+    width: 98vw;
+    height: 55vh;
+    display: flex;
+
+
+}
+.image1{
+    width: 300;
+    height: 400;
+}
+.image2{
+    width: 400;
+    height: 430;
+}
+.image1 img {
+    width: 100%;
+    padding: 10px; /* Note: you need to specify the unit for padding, such as px */
+    filter: blur(1px) grayscale(100%);
+}
+.image2 img {
+    width: 100%;
+    padding: 10px; /* Note: you need to specify the unit for padding, such as px */
+
+}
+.hourstxt{
+    text-align: center;
+    padding: 10;
+    position: absolute;
+    top: 83%;
+    left:12%;
+    width: 200;
+    height: 140;
+    background-color: rgba(233, 235, 237,0.8);
+    border-radius: 10px;
+}
+i{
+    color: rgb(67, 67, 67);
+    font-size: 25px;
+    padding: 5;
+}
+.hourstxt p{
+    color: rgb(67, 67, 67);
+    font-family: "Poppins";
+    padding: 2;
+}
+.aboutUS{
+    padding: 20;
+font-family: "Poppins";
+}
+#about{
+    color: rgb(136, 119, 9);
+    margin-bottom: 10;
+}
+h4{
+    margin-bottom: 20;
+    font-size: 25px;
+}
+.aboutUS p{
+    font-size: 20px;
+margin-bottom: 10;
+}
+.aboutUS button{
+    width: 120;
+    height: 50;
+    font-family:"Poppins";
+    font-size: 17px;
+    color: rgb(249, 244, 244);
+    background-color: rgb(80, 80, 80);
+    border: none;
+}
+.info-section{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.appointment-form{
+    z-index: 1;
+    position: absolute;
+    top: 15%;
+    right: 30%;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    border: 2px solid rgb(97, 97, 97);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(97, 97, 97);
+    transform: translateX(200%);
+    opacity: 0;
+    transition: all 1s ;
+}
+
+.af-h1{
+    font-family: "Poppins";
+    color: rgb(238, 238, 238);
+    padding: 10px;
+}
+.sub{
+    font-family: "Poppins";
+}
+
+.hide{
+    display: none;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+.haircut-container{
+    font-family: "Poppins";
+    margin-top: 10;
+
+    text-align: center;
+}
+.cards-container{
+    padding: 10;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+ 
+    max-width: 1300px;
+    margin: auto;
+
+}
+.card{
+ border: none;
+    margin-left: 10;
+    width: 300px;
+    height: 50px;
+    
+}
+.team-section{
+    text-align: center;
+    padding: 10;
+    font-family: "Poppins";
+    transition: all  .5s linear;
+}
+.team-section h5{
+    margin: 10;
+    color: rgb(136, 119, 9);
+}
+.barber-section-cards{
+    padding: 10;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+ 
+    max-width: 1300px;
+    margin: auto;
+}
+.reviews{
+    text-align: center;
+    padding: 20;
+    font-family: "Poppins";
+}
+.reviews button{
+    color: white;
+    font-family: "Poppins";
+background-color: rgb(99, 99, 99);
+padding: 10;
+border: none;
+transition: all .5s linear;
+border-radius: 0%;
+
+}
+.subMenu button{
+    color: rgb(238, 238, 238);
+    font-family: "Poppins";
+    border-color: rgb(135, 133, 133);
+    transition: all .4s linear;
+}
+.subMenu button:hover{
+    background-color: transparent;
+    padding: 10;
+    
+    color: rgb(136, 119, 9);
+    border-color: rgb(135, 133, 133);
+}
+
+.reviews button:hover{
+    color:  rgb(99, 99, 99);
+    background-color: white;
+   
+}
+.reviews h5{
+    margin: 10;
+    color: rgb(136, 119, 9);
+}
+.reviews-cards{
+    padding: 10;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+ 
+    max-width: 1300px;
+    margin: auto;
+}
+.reviews-cards::-webkit-scrollbar{
+    background-color: transparent;
+}
+.reviews span#username{
+    color: rgb(135, 133, 133);
+    font-size: 15px;
+ 
+}
+.radio-options{
+    color: whitesmoke;
+    font-family: "Poppins";
+    padding: 5;
+    margin-bottom: 10;
+}
+.haircut-selection p{
+font-family: "Poppins";
+color: whitesmoke;
+padding: 5;
+
+}
+#liveAlertPlaceholder{
+
+    opacity: 1;
+    transition: all 1s ease-in;
+    padding: 10;
+    background-color: rgb(135, 133, 133);
+    color: rgb(97, 97, 97);
+}
+.modal-body{
+   
+}
+.my-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    z-index: 1000; /* Ensure the menu stays on top of other content */
+}
+#switch{
+    color: rgb(240, 240, 240);
+    font-family: "Poppins";
+    display: flex;
+    padding: 10;
+    justify-content: space-around;
+    
+    width: 150px;
+}
+
+#flexSwitchCheckDefault{
+    color: rgb(136, 119, 9);
+    background-color: rgb(67, 67, 67);
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: white;
+        }
+
+
+
+}
